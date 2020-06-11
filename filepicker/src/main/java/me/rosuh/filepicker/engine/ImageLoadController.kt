@@ -52,7 +52,7 @@ object ImageLoadController {
     }
 
     /**
-     * 加载图片，如果没有不存在图片加载引擎，那么家使用默认 icon
+     * 加载图片，如果没有不存在图片加载引擎，那么将使用默认 icon
      * Load images, if there is no image loading engine, then the default icon is used
      */
     fun load(

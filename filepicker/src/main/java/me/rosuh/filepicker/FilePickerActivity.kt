@@ -291,7 +291,7 @@ class FilePickerActivity : AppCompatActivity(), View.OnClickListener,
      * 获取两个列表的监听器
      */
     private fun getListener(recyclerView: RecyclerView): RecyclerViewListener {
-        return RecyclerViewListener(this@FilePickerActivity, recyclerView, this@FilePickerActivity)
+        return RecyclerViewListener(recyclerView, this@FilePickerActivity)
     }
 
     /**
